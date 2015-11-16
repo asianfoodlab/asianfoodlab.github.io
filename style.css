@@ -1,6 +1,6 @@
 h1 {
     color: maroon;
-    font-size: 30px;
+    font-size: 24pt;
 }
 
 #leftsidebar {
@@ -15,10 +15,12 @@ h1 {
 
 #main {
     float: left;
+    padding-bottom: 60px;
 }
 
 ul {
     list-style-type: none;
+    font-size: 16pt;
 }
 
 .footernav {
@@ -27,4 +29,14 @@ ul {
 
 footer {
     clear: both;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+form {
+    display: inline;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
 }
