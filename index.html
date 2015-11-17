@@ -6,63 +6,67 @@
         <link href='https://fonts.googleapis.com/css?family=Raleway:400,500' rel='stylesheet' type='text/css'>
     </head>
     <body>
-        <header>
-              <h1 id="title">Karen Wong</h1>
-        </header>
+        <div id="header" class="section">
+            <h1 id="title">Karen Wong</h1>
+        </div>
+        <div id="topNavBar">
+            <ul>
+                <li class="topNav">Home</li>
+                <li class="topNav">Projects</li>
+                <li class="topNav">Contact</li>
+            </ul>
+        </div>   
+        <br>
+        <div id="main" class="section">    
+            <img src="http://asianfoodlab.github.io/profilephoto.jpg" id="profilepic" height="317" width="300"/>
+            <p>Product Manager, Mother, Chef, Writer, Educator, Obsessor of all things fermented</p>
+            <p>Lives in San Francisco, CA</p>
 
-        <div id="multicolumn">
-            <aside id="leftsidebar">
-                <ul>
-                    <li class="leftnav">Home</li>
-                    <li class="leftnav">Projects</li>
-                    <li class="leftnav">Contact</li>
-                </ul>        
-            </aside>
-            
-            <section id="main">
-                <img src="http://asianfoodlab.github.io/profilephoto.jpg" id="profilepic" height="317" width="300"/>
-                <p>Product Manager, Mother, Chef, Writer, Educator, Obsessor of all things fermented</p>
-                <p>Lives in San Francisco, CA</p>
-
-                <script type="text/javascript">
-                    var profilePicture = document.getElementById("profilepic");
-                     alert("This works!");
-                    function increasePictureSize(){
-                        profilePicture.style.width = "400px";
-                        profilePicture.style.height = "400px";
-                        alert("This works");
-                    }
-
-                    profilePicture.addEventListener("dblclick", increasePictureSize);
-
-                </script>
-
-            </section>
-
-            <aside id="rightsidebar">
-                
+            <script type="text/javascript">
+                var profilePicture = document.getElementById("profilepic");
+                 //alert("This works!");
+                function increasePictureSize(){
+                    profilePicture.style.width = "400px";
+                    profilePicture.style.height = "400px";
+                   // alert("This works");
+                }
+                profilePicture.addEventListener("dblclick", increasePictureSize);
+            </script>
+        </div>
+        <div id="footerNav" class="section">
+            <ul id="footerNavList">
+                <li class="footerLink"> 
+                    <a href="https://github.com/asianfoodlab"><img src="http://cdn.flaticon.com/png/256/25231.png" height="42" width="42"></a>
+                </li>
+                <li class="footerLink">
+                    <a href="https://www.linkedin.com/in/karenwongux"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png" height="42" width="42"></a>
+                </li>
+               <li class="footerLink">
+                    <a href="https://instagram.com/asianfoodlabsf"><img src="http://i.imgur.com/rd3fsu3.png" height="42" width="42"></a>
+                </li>
+                <li class="footerLink">
+                    <a href="https://twitter.com/asianfoodlab"><img src="http://cdn.business2community.com/wp-content/uploads/2015/07/Twitter-icon.png.png" height="42" width="42"></a> 
+                </li>   
+            </ul>
+        </div>
+        <!-- <div>
+            <div class="footerLink">
                 <a href="https://github.com/asianfoodlab"><img src="http://cdn.flaticon.com/png/256/25231.png" height="42" width="42"></a>
-                <br>
-           
+            </div>
+            
+            <div class="footerLink">
                 <a href="https://www.linkedin.com/in/karenwongux"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png" height="42" width="42"></a>               
-                <br>
-                
+            </div>
+           
+            <div class="footerLink">
                 <a href="https://instagram.com/asianfoodlabsf"><img src="http://i.imgur.com/rd3fsu3.png" height="42" width="42"></a>
-                <br>
-
-                <a href="https://twitter.com/asianfoodlab"><img src="http://cdn.business2community.com/wp-content/uploads/2015/07/Twitter-icon.png.png" height="42" width="42"></a>
-                    
-            </aside>
-        </div>
-        <div>
-            <footer>
-                <ul>
-                    <li class="footernav">Home</li>
-                    <li class="footernav">Projects</li>
-                    <li class="footernav">Contact</li>
-                </ul>  
-            </footer>
-        </div>
+            </div>
+                      
+            <div class="footerLink">
+                <a href="https://twitter.com/asianfoodlab"><img src="http://cdn.business2community.com/wp-content/uploads/2015/07/Twitter-icon.png.png" height="42" width="42"></a> 
+            </div>          
+                              
+        </div> -->
         
 
   <!--      <table>

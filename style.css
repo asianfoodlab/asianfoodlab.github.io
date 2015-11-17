@@ -1,42 +1,77 @@
 h1 {
     color: maroon;
-    font-size: 24pt;
+    font-size: 24pt;    
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
 }
 
-#leftsidebar {
+#topNavBar {
+    text-align: center;
+}
+
+.topNav {
+    padding-right: 30px;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*#topNavBar li {
     float: left;
-    width: 25%;
+    padding: 10px 30px 10px 30px;
 }
 
-#rightsidebar {
-    float: right;
-    width: 25%;
+#topNavBar a {
+    display: block;
+    width: 60px; 
+}
+
+#topNavBar {
+    display: inline;
+    clear: right;
+}*/
+
+.section {
+    display: inline;
 }
 
 #main {
-    float: left;
     padding-bottom: 60px;
+    width: 100%;
 }
+
+img {
+    margin: 0 auto; 
+}
+
 
 ul {
     list-style-type: none;
     font-size: 16pt;
+    display: inline;
+    text-align: center;
 }
 
-.footernav {
+.footerLink {
     display: inline;
 }
 
-footer {
-    clear: both;
-    padding-left: 30px;
-    padding-right: 30px;
+#footerNav {
+    margin: auto;
 }
 
-form {
-    display: inline;
+p {
+    text-align: center;
+}
+
+#profilepic {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 body {
     font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    width: 100%;
 }
